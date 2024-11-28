@@ -64,6 +64,30 @@ export default [
 }
 ```
 
+### React
+
+For projects using React, you can extend your config with the React-specific ESLint rules.
+
+**Flat config:**
+
+```js
+import fhEslint from 'eslint-config-fullhaus';
+
+export default [
+  ...fhEslint.configs.react,
+];
+```
+
+**Legacy config:**
+
+```json
+{
+  "extends": [
+    "eslint-config-fullhaus/legacy/configs/react"
+  ]
+}
+```
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

@@ -1,5 +1,6 @@
 import baseConfig from './configs/base.mjs';
 import tsConfig from './configs/typescript.mjs';
+import reactConfig from './configs/react.mjs';
 
 export default {
   configs: {
@@ -9,5 +10,6 @@ export default {
     ],
     base: baseConfig,
     typescript: tsConfig,
+    react: reactConfig,
   },
 };
