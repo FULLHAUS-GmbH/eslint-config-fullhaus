@@ -4,11 +4,11 @@ module.exports = {
   ...baseReactRules,
 
   // Overrides
-  "@typescript-eslint/no-misused-promises": [
+  '@typescript-eslint/no-misused-promises': [
     2,
     {
-      "checksVoidReturn": {
-        "attributes": false,
+      'checksVoidReturn': {
+        'attributes': false,
       },
     },
   ],

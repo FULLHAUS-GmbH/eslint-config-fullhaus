@@ -18,5 +18,5 @@ export default tsEslint.config(
   },
   {
     rules: tsRules,
-  }
+  },
 );

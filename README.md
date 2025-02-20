@@ -116,19 +116,15 @@ export default [
 ## Available Configurations and Rules
 The **FULL**HAUS ESLint Configuration package provides a modular set of configurations and rules designed to accommodate different project needs. Below is a list of the available options:
 
-### Flat Configuration (ESLint v9+)
-- `default`: The full recommended configuration.
-- `baseConfig`: Focuses on JavaScript (non-TypeScript) rules.
-- `stylisticConfig`: Enforces consistent code styling.
-- `reactConfig`: Contains React-specific ESLint rules.
-- `typedReactConfig`: Tailored React rules for TypeScript projects (e.g., .tsx files).
-
-### Legacy Configuration (ESLint v8)
-- `legacy`: The complete recommended configuration for legacy projects.
-- `legacy/configs/base`: JavaScript-focused configuration.
-- `legacy/configs/stylistic`: Stylistic rules for code consistency.
-- `legacy/configs/react`: React-specific configuration.
-- `legacy/configs/typed-react`: React configuration for TypeScript projects.
+### Configurations
+| Flat               | Legacy                       | Description                                 |
+|--------------------|------------------------------|---------------------------------------------|
+| `default`          | `legacy`                     | The full recommended configuration          |
+| `baseConfig`       | `legacy/configs/base`        | JavaScript-focused configuration            |
+| `stylisticConfig`  | `legacy/configs/stylistic`   | Stylistic rules for code consistency        |
+| `reactConfig`      | `legacy/configs/react`       | Contains React-specific ESLint rules        |
+| `typedReactConfig` | `legacy/configs/typed-eact`) | React configuration for TypeScript projects |
+| `typescriptConfig` | `legacy/configs/typescript`  | TypeScript-focused configuration            |
 
 ### Rules
 - `baseRules`: Rules for JavaScript

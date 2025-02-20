@@ -4,7 +4,9 @@ module.exports = {
   'eqeqeq': [
     'error',
     'always',
-    {'null': 'ignore'},
+    {
+      'null': 'ignore',
+    },
   ],
   'no-console': 'error',
   'no-duplicate-imports': 'error',

@@ -14,7 +14,9 @@ module.exports = {
   '@stylistic/quotes': [
     'error',
     'single',
-    {'avoidEscape': true},
+    {
+      'avoidEscape': true,
+    },
   ],
   '@stylistic/semi': 'error',
   '@stylistic/space-before-blocks': 'error',
